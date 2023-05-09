@@ -2,14 +2,19 @@
   "name": "project1",
   "version": "1.0.0",
   "description": "",
-  "main": "first.js",
+  "main": "first",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node first.js",
+    "dev": "nodemon first.js ",
+    "dev1": "nodemon second.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
